@@ -4,6 +4,7 @@ import Welcome from '../components/Welcome'
 import AddButtom from '../components/AddButton'
 
 class Exercises extends React.Component {
+    
     state = {
         data: [{
             "id": 1,
@@ -28,16 +29,18 @@ class Exercises extends React.Component {
             "rightColor": "#F76B1C"
         }]
     }
-    render() {
-        return (
-                <div>
-                    <Welcome
-                     username="fabian"
+    
+    render(){
+        return(
+            <div>
+                <Welcome 
+                    username="Raúl"
                 />
-              <ExerciseList
-              exercises={this.state.data}
-              />
-              <AddButtom />
+                <ExerciseList 
+                    exercises={this.state.data}
+                />
+
+                <AddButtom />
             </div>
         )
     }

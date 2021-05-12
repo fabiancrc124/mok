@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/Welcome.css'
+import './Styles/Welcome.css'
 
 const Welcome = ({username}) => (
     <div className="container">

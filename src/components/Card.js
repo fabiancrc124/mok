@@ -1,6 +1,6 @@
 import React from 'react'
-import circlesImg from '../images/circles.png'
-import './styles/Card.css'
+import circlesImg from '../Images/circles.png'
+import './Styles/Card.css'
 
 class Card extends React.Component {
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles/AddButton.css'
-import buttomImg from '../images/add.png'
+import './Styles/AddButton.css'
+import buttomImg from '../Images/add.png'
 import { Link } from 'react-router-dom'
 
 const AddButton = () => (
